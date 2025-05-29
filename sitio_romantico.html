@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
+<p class="p1">&lt;title&gt;Mi sitio romántico para ti 💜&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #f5f0e6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #6b3e7c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0; padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #d9c7e8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #3a0e5c;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #cbbde0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px 25px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #3a0e5c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav button:hover, nav button.active {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #b494ca;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>section {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 700px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 30px auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #fff9f8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 0 10px #d8c9e8aa;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>section.active {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#music-controls {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 15px 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#music-controls button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #9b70b1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#music-controls button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #6b3e7c;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#btn-carta {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #c487e8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 12px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#btn-carta:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #9e5ec7;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#carta-especial {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #f3e9fb;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-left: 6px solid #b06ad3;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height: 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header&gt;Mi sitio romántico para ti 💜&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div id="music-controls"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="play-music"&gt;▶️ Reproducir música&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="pause-music" disabled&gt;⏸️ Pausar música&lt;/button&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="nav-btn active" data-target="inicio"&gt;Inicio&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="nav-btn" data-target="sobre-mi"&gt;Sobre mí&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="nav-btn" data-target="para-ti"&gt;Para ti&lt;/button&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="inicio" class="active"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Inicio&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Mi amor, este espacio es solo para ti. Cada palabra aquí escrita nace del fondo de mi corazón, porque no hay un solo día que pase sin pensar en cuánto te amo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Desde que llegaste a mi vida, todo cambió para bien. Me enseñaste lo que es el amor verdadero, lo que es sentir paz al mirar a alguien y saber que es tu hogar.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Hoy quiero prometerte que nunca te fallaré, que lucharé cada día por hacerte feliz, por verte sonreír, y por seguir construyendo sueños juntos.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Este rincón es pequeño comparado con lo que siento por ti, pero quiero que al verlo, sientas mi amor, mi entrega y mi deseo de seguir a tu lado por siempre.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;No importa lo que venga, ni los tropiezos, ni los errores… Te elijo hoy, te elegí ayer y volvería a hacerlo mil veces más.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Gracias por ser tú, por cada detalle, por cada abrazo que cura todo, y por tu paciencia cuando más la necesito. Eres mi vida entera.&lt;/p&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="sobre-mi"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Sobre mí&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Tengo al amor de mi vida y nunca te cambiaría por nada en el mundo. Ya sabes todo de mí, y quiero que sigamos conociéndonos y creciendo juntos en este camino.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Mi corazón te pertenece, y cada día es un nuevo capítulo en nuestra historia que quiero escribir contigo.&lt;/p&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="para-ti"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Para ti&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Amor mío, no hay palabras suficientes para describir lo que significas para mí. Cada parte de mi corazón late por ti, y aunque a veces cometo errores, te amo con cada fibra de mi ser.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Quiero pedirte perdón por mis fallos, especialmente en este último mes. No hay excusa que justifique cuando te he hecho sentir mal, pero sí hay un amor inmenso que me impulsa a mejorar cada día.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Tu perdón es un regalo que valoro como lo más precioso del mundo. Te amo tanto que el dolor de lastimarte me pesa más que cualquier otra cosa. Te prometo seguir creciendo, por nosotros, por este amor.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Gracias por tu ternura, por tu comprensión, por tu fuerza. Eres mi luz en los días grises y mi alegría cuando todo parece ir mal.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Si pudiera, llenaría el cielo de estrellas que dijeran “Te amo”. Pero hoy te dejo estas palabras con la esperanza de que lleguen directo a tu corazón.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Siempre contigo, siempre para ti. Eres mi presente y mi futuro. No me sueltes, porque yo nunca lo haré. 💖&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="btn-carta"&gt;Toca aquí para leer una carta especial 💌&lt;/button&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="carta-especial" style="display:none;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;&lt;strong&gt;Mi Carta Para Ti 💌&lt;/strong&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Mi amor preciosa,&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Hoy quiero abrirte el corazón y decirte que no hay un solo segundo en el que no agradezca por tenerte en mi vida. Me haces mejor, me inspiras, me das fuerza incluso cuando siento que no puedo más.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Sé que he cometido errores, y aunque no puedo borrar el pasado, puedo prometerte un futuro donde todo sea distinto, donde lo único que te falte sea espacio en los brazos para tanto amor que tengo para ti.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Gracias por quedarte, por seguir creyendo en mí, por amarme incluso en mis peores días. Tú eres mi motor, mi sueño cumplido, mi razón para seguir.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Perdóname por cada palabra que no dije, por cada gesto que te hirió, por cada momento en que no estuve a la altura de lo que mereces. Hoy y siempre, mi intención será amarte mejor, respetarte más y hacerte sentir lo importante que eres.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Por ti cambiaría todo. No hay nada ni nadie que se compare a ti. Eres mi máxima autoridad, la reina de mi vida, y por ti soy capaz de dar cada paso hacia ser la mejor versión de mí.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Te amo con locura, con ternura, con todo lo que soy.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Por siempre tuyo 💜&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;audio id="audio-music" loop&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;source src="https://cdn.pixabay.com/download/audio/2021/11/01/audio_4a514f13b1.mp3?filename=relaxing-background-music-12459.mp3" type="audio/mp3" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Cambia la url por una de tu preferencia, esta es música instrumental libre --&gt;</p>
+<p class="p1">&lt;/audio&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Navegación</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const navButtons = document.querySelectorAll('.nav-btn');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const sections = document.querySelectorAll('section');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>navButtons.forEach(btn =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btn.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>navButtons.forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const target = btn.getAttribute('data-target');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>sections.forEach(sec =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if(sec.id === target){</p>
+<p class="p1"><span class="Apple-converted-space">          </span>sec.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>sec.classList.remove('active');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Botón carta especial</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnCarta = document.getElementById('btn-carta');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const carta = document.getElementById('carta-especial');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnCarta.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(carta.style.display === 'none'){</p>
+<p class="p1"><span class="Apple-converted-space">      </span>carta.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btnCarta.textContent = 'Ocultar carta especial 💌';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>carta.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btnCarta.textContent = 'Toca aquí para leer una carta especial 💌';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Control música</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const audio = document.getElementById('audio-music');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnPlay = document.getElementById('play-music');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnPause = document.getElementById('pause-music');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnPlay.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>audio.play();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btnPlay.disabled = true;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btnPause.disabled = false;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnPause.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>audio.pause();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btnPlay.disabled = false;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btnPause.disabled = true;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
